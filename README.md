@@ -52,24 +52,7 @@ Chương trình sẽ xử lý tệp class1.txt, kiểm tra dữ liệu, chấm �
 Kết Quả
 Chương trình sẽ tạo ra các file kết quả sau:
 
-class1_grades.csv: File CSV chứa điểm của từng học sinh.
 class1_grades.txt: File văn bản chứa điểm của từng học sinh.
 Báo cáo chi tiết về các câu hỏi bị bỏ qua nhiều nhất hoặc trả lời sai nhiều nhất.
 Đóng Góp
 Nếu bạn muốn đóng góp cho dự án, vui lòng tạo pull request hoặc báo lỗi tại repository trên GitHub.
-
-Giấy Phép
-Dự án này sử dụng giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
-
-markdown
-Sao chép mã
-
-4. **Lưu file**: Nhấn `Ctrl+S` để lưu file.
-
-### Đẩy code và file `README.md` lên GitHub
-
-1. **Khởi tạo repository git trong thư mục dự án**:
-    - Mở Terminal hoặc Command Prompt và chuyển đến thư mục dự án của bạn.
-
-```bash
-git init
