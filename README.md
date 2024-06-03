@@ -24,35 +24,32 @@ Dự án này nhằm mục đích giảm bớt thời gian chấm điểm cho c�
 
 ## Cài Đặt
 
-Đảm bảo bạn đã cài đặt Python 3 và các thư viện cần thiết. Bạn có thể cài đặt các thư viện cần thiết bằng pip:
+Đảm bảo bạn đã cài đặt Python 3 và các thư viện cần thiết.
 
-```bash
-pip install pandas numpy
+## Sử Dụng
 
-Sử Dụng
 1. Đặt Các Tệp Dữ Liệu
-Lưu các tệp văn bản chứa bài làm của học sinh vào một thư mục chỉ định trên máy tính của bạn. Đảm bảo rằng mỗi tệp có tên phù hợp với lớp học, ví dụ: class1.txt, class2.txt.
+Lưu các tệp văn bản chứa bài làm của học sinh vào một thư mục chỉ định trên máy tính của bạn. Đảm bảo rằng mỗi tệp có tên phù hợp với lớp học, trong projet này có 8 file điểm của 8 lớp từ class1.txt đến class8.txt.
 
 2. Chạy Chương Trình
 Thực thi script và nhập tên lớp khi được yêu cầu. Đảm bảo rằng tệp grade_calculator.py nằm cùng thư mục với các tệp dữ liệu.
 
-bash
-Sao chép mã
-python grade_calculator.py
 3. Nhập Tên Lớp
 Khi được yêu cầu, nhập tên tệp lớp (ví dụ: class1 cho tệp class1.txt).
 
 Ví dụ:
 
-bash
-Sao chép mã
 Enter a class name to grade (i.e. class1 for class1.txt): class1
 Chương trình sẽ xử lý tệp class1.txt, kiểm tra dữ liệu, chấm điểm từng bài thi, và tạo báo cáo.
 
-Kết Quả
+## Kết Quả
+
 Chương trình sẽ tạo ra các file kết quả sau:
 
 class1_grades.txt: File văn bản chứa điểm của từng học sinh.
+
 Báo cáo chi tiết về các câu hỏi bị bỏ qua nhiều nhất hoặc trả lời sai nhiều nhất.
-Đóng Góp
+
+## Đóng Góp
+
 Nếu bạn muốn đóng góp cho dự án, vui lòng tạo pull request hoặc báo lỗi tại repository trên GitHub.

@@ -67,8 +67,8 @@ def grade_student(dong_hop_le, answer_key):
     diem_cao_nhat = max(diem_tung_sv, key=lambda x: x[1])[1]
     diem_thap_nhat = min(diem_tung_sv, key=lambda x: x[1])[1]
     khoang_cach = diem_cao_nhat - diem_thap_nhat
-    diem_trung_binh = round(np.mean([diem[1] for diem in diem_tung_sv]), 2)
-    trung_vi = np.median([diem[1] for diem in diem_tung_sv])
+    diem_trung_binh = round(np.mean([diem[1] for diem in diem_tung_sv]), 3)
+    trung_vi = round(np.median([diem[1] for diem in diem_tung_sv]), 3)
 
     return (diem_tung_sv, (diem_cao, diem_trung_binh, diem_cao_nhat, diem_thap_nhat, khoang_cach, trung_vi), cau_hoi_bo_qua, cau_tra_loi_sai)
 
@@ -131,5 +131,3 @@ if lines:
         print("Question that most people skip:", ', '.join([f"{q[0]} - {q[1]} - {q[2]}" for q in most_skipped]))
         print()
         print("Question that most people answer incorrectly:", ', '.join([f"{q[0]} - {q[1]} - {q[2]}" for q in most_incorrect]))
-
-        
